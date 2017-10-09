@@ -15,6 +15,8 @@
 		8B4609681F8BB39700B70A6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4609671F8BB39700B70A6E /* main.m */; };
 		8B4609721F8BB39700B70A6E /* Accelerometers_GyroscopeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4609711F8BB39700B70A6E /* Accelerometers_GyroscopeTests.m */; };
 		8B46097D1F8BB39700B70A6E /* Accelerometers_GyroscopeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B46097C1F8BB39700B70A6E /* Accelerometers_GyroscopeUITests.m */; };
+		8B46098C1F8BB3DF00B70A6E /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B46098B1F8BB3DF00B70A6E /* CoreMotion.framework */; };
+		8B46098F1F8BBBE900B70A6E /* NavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B46098E1F8BBBE900B70A6E /* NavController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		8B4609781F8BB39700B70A6E /* Accelerometers&GyroscopeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Accelerometers&GyroscopeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B46097C1F8BB39700B70A6E /* Accelerometers_GyroscopeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Accelerometers_GyroscopeUITests.m; sourceTree = "<group>"; };
 		8B46097E1F8BB39700B70A6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B46098B1F8BB3DF00B70A6E /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		8B46098D1F8BBBE900B70A6E /* NavController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavController.h; sourceTree = "<group>"; };
+		8B46098E1F8BBBE900B70A6E /* NavController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B46098C1F8BB3DF00B70A6E /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +91,7 @@
 				8B4609701F8BB39700B70A6E /* Accelerometers&GyroscopeTests */,
 				8B46097B1F8BB39700B70A6E /* Accelerometers&GyroscopeUITests */,
 				8B4609561F8BB39700B70A6E /* Products */,
+				8B46098A1F8BB3DE00B70A6E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +117,8 @@
 				8B4609631F8BB39700B70A6E /* LaunchScreen.storyboard */,
 				8B4609661F8BB39700B70A6E /* Info.plist */,
 				8B4609671F8BB39700B70A6E /* main.m */,
+				8B46098D1F8BBBE900B70A6E /* NavController.h */,
+				8B46098E1F8BBBE900B70A6E /* NavController.m */,
 			);
 			path = "Accelerometers&Gyroscope";
 			sourceTree = "<group>";
@@ -130,6 +139,14 @@
 				8B46097E1F8BB39700B70A6E /* Info.plist */,
 			);
 			path = "Accelerometers&GyroscopeUITests";
+			sourceTree = "<group>";
+		};
+		8B46098A1F8BB3DE00B70A6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B46098B1F8BB3DF00B70A6E /* CoreMotion.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +285,7 @@
 				8B46095D1F8BB39700B70A6E /* ViewController.m in Sources */,
 				8B4609681F8BB39700B70A6E /* main.m in Sources */,
 				8B46095A1F8BB39700B70A6E /* AppDelegate.m in Sources */,
+				8B46098F1F8BBBE900B70A6E /* NavController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
